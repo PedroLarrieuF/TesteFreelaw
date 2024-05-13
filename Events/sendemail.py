@@ -14,8 +14,8 @@ def enviar_email(destinatario, assunto, mensagem):
     # Configurações de conexão com o servidor SMTP
     smtp_server = 'smtp.example.com'
     smtp_port = 587  # Porta de envio do servidor SMTP
-    smtp_user = 'pedrolarrieudev@gmail.com'  # Configura seu e-mail
-    smtp_password = 'Incorreta1'  # Sua senha
+    smtp_user = 'email@email.com'  # Configura seu e-mail
+    smtp_password = 'senha@senha'  # Sua senha
 
     # Iniciando conexão com o servidor SMTP
     server = None
